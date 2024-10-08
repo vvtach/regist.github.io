@@ -1,0 +1,360 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "";
+  background-color: white;
+  padding-bottom: 500px;
+}
+
+/* header nav edit */
+.header-nav {
+  margin-top: 5rem;
+  border-top: 0.4px solid rgb(232, 232, 232);
+  border-bottom: 0.6px solid rgb(192, 192, 192);
+}
+
+.header-nav .wrapper-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0rem;
+}
+
+.menu a {
+  font-family: "poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 0rem 2rem;
+  letter-spacing: -1px;
+  font-size: 15.5px;
+  color: black;
+}
+
+.menu2 a {
+  font-family: "poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 0rem 2rem;
+  letter-spacing: -1px;
+  font-size: 15.5px;
+  color: black;
+}
+
+.menu3 a {
+  font-family: "poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 0rem 2rem;
+  letter-spacing: -1px;
+  font-size: 15.5px;
+  color: black;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* header navbar done */
+
+/* masuk section style */
+.wrapper {
+  margin-top: 0.7rem;
+  padding: 0rem 7%;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.login-form {
+  display: "";
+  width: 30rem;
+}
+
+.login-form h2 {
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+.login-form .forgoten {
+  margin-top: 1.1rem;
+}
+
+.forgoten a {
+  font-family: "inter", sans-serif;
+  color: black;
+  text-decoration: underline;
+  font-size: 15.5px;
+  font-weight: 300;
+}
+
+.login-form .form {
+  margin: 1rem 0rem;
+}
+
+.form .email {
+  width: 100%;
+  border: 0.5px solid rgb(88, 88, 88);
+}
+
+.email .input-email {
+  max-width: 93%;
+  font-size: 17px;
+  padding: 1rem;
+  font-weight: 300;
+  font-family: "inter", sans-serif;
+}
+
+.form .show-hide {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.6rem 0rem;
+}
+
+.show-hide a {
+  font-family: "inter", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.form .pw {
+  width: 100%;
+  border: 0.5px solid rgb(88, 88, 88);
+}
+
+.pw .password {
+  max-width: 93%;
+  font-size: 17px;
+  padding: 1rem;
+  font-weight: 300;
+  font-family: "inter", sans-serif;
+}
+
+.masuk {
+  margin-top: 2rem;
+  border: 0.5px solid black;
+  display: inline-block;
+}
+
+.masuk a {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0.7rem 1rem;
+}
+
+.masuk h4 {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "inter", sans-serif;
+  font-size: 14px;
+  margin-right: 1rem;
+  font-weight: 550;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+}
+
+.masuk h4:hover {
+  opacity: 0.5;
+}
+
+.login-form .text {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.text p {
+  font-family: "inter", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.login-form .atau {
+  margin-top: 1rem;
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: black;
+}
+
+.login-form .google {
+  margin-top: 0.9rem;
+  border: 0.5px solid black;
+  display: inline-block;
+}
+
+.google a {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  text-transform: uppercase;
+  font-family: "inter", sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+  color: black;
+}
+
+.google a:hover {
+  opacity: 0.7;
+}
+
+.login-form .google img {
+  width: 25px;
+  margin-left: 1rem;
+}
+
+.wrapper .regist {
+  width: 30rem;
+}
+
+.regist .heading {
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+.regist .text2 {
+  margin-top: 1rem;
+  width: 110%;
+}
+
+.text2 p {
+  font-family: "inter", sans-serif;
+  font-size: 14.8px;
+  font-weight: 350;
+  letter-spacing: 1px;
+}
+
+.regist .list-benefit {
+  margin-top: 1.3rem;
+  margin-left: 3rem;
+}
+
+.list-benefit ul {
+  margin-bottom: 1rem;
+}
+
+.list-benefit ul li {
+  font-family: "inter", sans-serif;
+  list-style-type: circle;
+  font-size: 15.5px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+/* menu */
+#menu {
+  display: none;
+}
+
+/* banner lol */
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.5rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.banner .wrapper-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0rem;
+  gap: 10rem;
+}
+
+.wrapper-text .text7 {
+  width: 30%;
+}
+
+.text7 p {
+  color: white;
+  font-family: "inter", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  line-height: 1.7rem;
+}
+
+.wrapper-text .sign8 {
+  display: flex;
+}
+
+.sign8 a {
+  background-color: white;
+  color: black;
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem 0.8rem;
+}
+
+/* responsive yuhuu */
+@media (max-width: 1000px) {
+  .wrapper {
+    display: block;
+  }
+
+  .wrapper .login-form {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 4rem;
+  }
+
+  .wrapper .regist {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .regist .text2 {
+    width: 99%;
+  }
+
+  .regist .list-benefit {
+    margin-left: 2.3rem;
+  }
+
+  #menu {
+    display: inline-block;
+  }
+
+  .wrapper-header {
+    position: absolute;
+    top: -100%;
+  }
+
+  .banner .wrapper-text {
+    display: block;
+    padding: 2.5rem 7%;
+  }
+
+  .wrapper-text .text7 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper-text .sign8 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .sign8 a {
+    padding: 0.7rem 1.7rem 0.7rem;
+  }
+}
